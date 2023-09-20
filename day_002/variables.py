@@ -1,5 +1,6 @@
 # I am using print() to have a newline in the next line code
 # Day 2: 30 Days of Python Programming
+
 # exercise level 1
 first_name = 'Aminu'
 last_name = 'Nababa'
