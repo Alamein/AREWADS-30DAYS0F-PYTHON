@@ -1,6 +1,7 @@
 # Exercise Level 2
 
 # 1
+# command for checking the python version: python --version
 print('python version : 3.10.0 64-bit')
 print()
 # 2
@@ -29,7 +30,7 @@ print(type('Alhaji Nababa'))
 print(type('Nigeria'))
 print()
 # Exercise level 3
-print('Intiger : .......-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7...........')
+print('Intiger : ...-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7...')
 print()
 print('Float : 1.01, 2.33, 2.5, 5.7777, 1.333')
 print()
