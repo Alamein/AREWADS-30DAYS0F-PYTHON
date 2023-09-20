@@ -1,5 +1,5 @@
 # I am using print() to have a newline in the next line code
-# Day 2: 30 Days of python programming
+# Day 2: 30 Days of Python Programming
 # exercise level 1
 first_name = 'Aminu'
 last_name = 'Nababa'
@@ -27,6 +27,7 @@ print('Is he Techie: ', techie)
 print('Is Al\'amin passionate about Arewa data science academy: ', passionate_about_it)
 print('Is Al\'amin fellow of Arewa data science academy: ', arewa_data_science_fellow)
 print('Is Al\'amin mentor of Arewa data science academy: ', arewa_data_sciene_mentor)
+
 # exercise level 2
 print() # I use this print() command to get line space between code
 print(type(first_name))
@@ -67,6 +68,7 @@ print(remainder)
 print(exp)
 print(floor_division)
 print()
+
 # calculation of circle
 area_of_circle = float(format(3.142*(30**2), '.2f'))
 circum_of_cicle = float(format(2*3.142*30, '.2f'))
@@ -76,6 +78,7 @@ area_of_cicle_from_user = int(input('Write the radius of cicle: '))
 Area_of_user = float(format(3.142*(area_of_cicle_from_user**2), '.2f'))
 print('The Area of the cicle is: ', Area_of_user)
 print()
+
 # user info
 user_first_name = input('Write your first name: ')
 user_last_name = input('Write your last name: ')
