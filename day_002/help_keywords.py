@@ -1,2 +1,2 @@
-help('keywords')
+help('keywords') # Print all Python reserved words
 
