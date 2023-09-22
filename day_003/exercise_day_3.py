@@ -13,7 +13,7 @@ print()
 print('Do you want to find the area of triangle? \nwrite its base and height magnitude below')
 base = float(input('write the base magnitude  of the triangle: '))
 height_of_triangle = float(input('write the height magnitude  of the triangle: '))
-area_of_triangle = float(format(0.5*base*height_of_triangle, '.27'))
+area_of_triangle = float(format(0.5*base*height_of_triangle, '.2f'))
 print('The area of triangle is: ', area_of_triangle, 'cm', sep='')
 print()
 
@@ -75,7 +75,7 @@ print('The slope in x-intercept and y-intercept of y = 2x -2 is equal to slope \
 # Euclidean Distance
 import math
 Ecldn_dstnc = math.sqrt((change_in_x_b)**2 + (change_in_y_b)**2)
-print('The Euclidean distance is: ', Ecldn_dstnc, 'cm', sep='')
+print('\nThe Euclidean distance is: ', Ecldn_dstnc, 'cm', sep='')
 
 # Calculate the value of y (y = x^2 + 6x + 9)
 value_of_y = int(((-3)**2) + (6*(-3)) + 9)
