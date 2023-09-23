@@ -117,13 +117,11 @@ rate_per_hour = float(input('Enter rate per hour: '))
 hour = float(input('Enter hours: '))
 earning = float(format(rate_per_hour*hour, '.2f'))
 print('Your weekly earning is: ','$', earning, sep='')
-print()
 
 # calculating number of second of the user years
 year_user = int(input('How old are you? '))
 seconds_c = float(format(year_user*365*24*60*60, '.2f'))
 print('You have lived for ', seconds_c,'seconds',sep='')
-print()
 
 # the table
 table = '\n1 1 1 1 1 \n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125'
