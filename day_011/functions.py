@@ -159,11 +159,11 @@ print()
 def evens_and_odds(int):
   num_even = 0
   num_odd = 0
-  for i in range(int +1):
+  for i in range(int + 1):
     if i % 2 == 0:
       num_even += 1
     else: 
-      num_odd +=1
+      num_odd += 1
   return f'The number of odd are: {num_odd} \nThe number of even are: {num_even}'
   
 print(f'For 100, {evens_and_odds(100)}')
