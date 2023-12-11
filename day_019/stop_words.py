@@ -2,7 +2,3 @@ stop_words = ['i','me','my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 
 
 
 
-
-def most_spoken_languages(file_n,v):
-    '''
-    Takes a filepath and an integer,n as arguments and returns the n most spok
