@@ -21,3 +21,23 @@ def most_spoken_languages(file_n,v):
     result = [(item[1],item[0]) for item in sorted_lang]
     return result[:v]
 most_spoken_languages('ountries_data.json',10)
+
+
+def most_spoken_languages(file_n,v):
+    '''
+    Takes a filepath and an integer,n as arguments and returns the n most spoken languages in the world
+    '''
+    with open(file_n) as fl:
+        list = json.loads(fl.read())
+    # looping to get dict of languages
+    languages = []
+    for i in range(len(list)):
+        languages.extend(list[i]['languages'])
+    lang = {}
+    for language in languages:
+        lang[language] = lang.get(language,0) + 1
+    # sorting the list of the tuples to get the most spoken languages
+    sorted_lang = sorted(lang.items(), key= lambda x:x[1],reverse=True) # contains the languages arranged based on values
+    result = [(item[1],item[0]) for item in sorted_lang]
+    return result[:v]
+most_spoken_languages('ountries_data.json',10)
